@@ -1,0 +1,10 @@
+Deliverable: a shiny app that can select, filter, and show summary data and display crashes on a map
+
+First Step
+- Each row of the Rail_Crash data represents a rail crash, with a geo-coordinate associate with it. 
+- When users select different conditions (e.g., time, county,... we can change the type of conditions later), all the crashes will be shown in a table and also on the map (you can have multiple tabs). The number of crashes will be shown as a summary.
+
+Second Step
+- The Rail_Inventory data may also be shown on the map using different markers/colors. 
+Each row of the inventory dataset represents a crossing where the geo-coordinates are also given.
+- Users should be able to select what they want to show - rail crash data, or rail inventory data, or both.
